@@ -16,9 +16,9 @@ import {
     mysql,
     blog,
     java1,
-    python2,
-    pmv,
-    self,
+    contractor,
+    pyproject,
+    fresher
   } from "../assets";
   
   export const navLinks = [
@@ -110,7 +110,7 @@ import {
     {
       title: "Civil Site Engineer",
       company_name: "PMV Construction",
-      icon: pmv,
+      icon: contractor,
       iconBg: "#383E56",
       date: "Nov 2018 - May 2023",
       points: [
@@ -123,7 +123,7 @@ import {
     {
       title: "Transitioning to Full Stack Development",
       company_name: "Fresher",
-      icon: self,
+      icon:fresher,
       iconBg: "#E6DEDD",
       date: "June 2023 - Present",
       points: [
@@ -232,7 +232,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: python2,
+      image:pyproject,
       source_code_link: "https://github.com/",
     },
   ];
