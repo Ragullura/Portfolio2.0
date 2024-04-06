@@ -1,7 +1,5 @@
 import {
-    mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -13,16 +11,14 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    python,
+    java,
+    mysql,
+    blog,
+    java1,
+    python2,
+    pmv,
+    self,
   } from "../assets";
   
   export const navLinks = [
@@ -42,21 +38,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Web Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
+  
     {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+
   ];
   
   const technologies = [
@@ -96,75 +86,51 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+        name: "MySQL DB",
+        icon: mysql,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Java",
+      icon: java,
     },
+    {
+      name: "Python",
+      icon: python,
+    },
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Civil Site Engineer",
+      company_name: "PMV Construction",
+      icon: pmv,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Nov 2018 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As a dedicated Civil Engineer with over 4 years of experience as a Site Engineer, I bring a proven track record of success in managing and coordinating all site activities to ensure project implementation within schedule and quality standards.",
+        "With a keen eye for detail and a commitment to excellence, I excel in continuously monitoring projects, solving problems, and providing technical advice to meet project specifications effectively.",
+        "My ability to prepare detailed reports, estimates, and sketches, coupled with my strong supervisory and communication skills, allows me to successfully collaborate with contractors and stakeholders to achieve project goals.",
       ],
     },
+
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Transitioning to Full Stack Development",
+      company_name: "Fresher",
+      icon: self,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed comprehensive self-study and hands-on projects to transition from a Civil Site Engineer to a Full Stack Developer.",
+      "Acquired proficiency in technologies such as React.js and related frameworks through dedicated learning and practical application.",
+      "Engaged in collaborative projects and online communities to gain practical experience and exposure to industry best practices.",
+      "Actively sought feedback from peers and online resources to continuously improve coding skills and understanding of software development principles.",
       ],
     },
   ];
@@ -198,9 +164,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Dynamic Blog Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Designed and implemented a dynamic blog website using HTML, Tailwind CSS, MongoDB, Express, React, and Node.js (MERN stack). This project demonstrates proficiency in both frontend and backend technologies, offering a modern and interactive platform for content creation, publication, and management. The integration of frontend and backend components ensures a seamless user experience and efficient data handling.",
       tags: [
         {
           name: "react",
@@ -211,53 +177,62 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "yellow-text-gradient",
+        },
+        {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: blog,
+      source_code_link: "https://github.com/Ragullura/mern-stack-blog",
     },
     {
-      name: "Job IT",
+      name: "Harvesting Innovation",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Engineered an innovative application using Java and Windows Builder GUI, integrated with XAMPP database management system. This platform facilitates seamless data management and user interaction, providing a robust solution for harvesting and analyzing data in various industries.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Windows Builder GUI",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "XAMPP Data Base",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: java1,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Python",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " Developed a user-friendly web application utilizing Python, MySQL, and GUI (Tkinter) to calculate concrete volume and pricing for construction projects. This tool streamlines the process of estimating material quantities and costs, enhancing efficiency and accuracy in project planning and management.",
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "GUI (Tkinter)",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: python2,
       source_code_link: "https://github.com/",
     },
   ];
