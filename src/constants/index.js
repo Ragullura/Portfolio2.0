@@ -11,16 +11,19 @@ import {
     nodejs,
     mongodb,
     git,
-    python,
-    java,
-    mysql,
-    blog,
-    java1,
-    contractor,
+    pmv,
     pyproject,
-    fresher
+    selfstudy,
+    java,
+    python,
+    mysql,
+    java1,
+    blog,
+
+    
   } from "../assets";
-  
+
+
   export const navLinks = [
     {
       id: "about",
@@ -110,7 +113,7 @@ import {
     {
       title: "Civil Site Engineer",
       company_name: "PMV Construction",
-      icon: contractor,
+      icon: pmv,
       iconBg: "#383E56",
       date: "Nov 2018 - May 2023",
       points: [
@@ -123,7 +126,7 @@ import {
     {
       title: "Transitioning to Full Stack Development",
       company_name: "Fresher",
-      icon:fresher,
+      icon:  selfstudy,
       iconBg: "#E6DEDD",
       date: "June 2023 - Present",
       points: [
