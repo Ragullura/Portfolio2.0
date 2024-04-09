@@ -169,7 +169,7 @@ import {
     {
       name: "Dynamic Blog Website",
       description:
-        "Designed and implemented a dynamic blog website using HTML, Tailwind CSS, MongoDB, Express, React, and Node.js (MERN stack). This project demonstrates proficiency in both frontend and backend technologies, offering a modern and interactive platform for content creation, publication, and management.",
+        "Designed and implemented a dynamic blog website using HTML, Tailwind CSS, MongoDB, Express, React, and Node.js (MERN stack). This project demonstrates proficiency in both frontend and backend technologies, offering a modern and interactive platform for content creation.",
       tags: [
         {
           name: "react",
